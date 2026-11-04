@@ -5,47 +5,126 @@
     font-family: Arial, sans-serif;
 }
 
-.top-bar {
-    background-color: #34e08a;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    text-align: center;
-}
-
-.header {
-    background-color: #e2e8f0;
-    padding: 20px;
-    text-align: center;
-}
-
-.navbar  {
-    background-color: #cbd5e1;
-    padding: 10px;
-    position:relative;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar li {
-    margin: 0 15px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #1e293b;
-    font-weight: bold;
-}
-
 body {
     background-color: #f1f5f9;
     color: #1e293b;
     line-height: 1.6;
 }
 
-.logo {
-   position:absolute;
+.top-bar {
+    background-color: #34e08a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
+
+.navbar {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1c2025;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    width: 70px;
+    height: auto;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 40px 20px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+
+.banner {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.produtos {
+    padding: 30px 20px;
+    max-width: 1100px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    vertical-align: top;
+}
+
+.produto img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    color: #475569;
+}
+
+.card span {
+    font-weight: bold;
+    color: #0f172a;
+}
+
